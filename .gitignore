@@ -1,0 +1,10 @@
+# Node modules
+node_modules/
+
+# Cypress videos and screenshots (optionnel si tu veux les garder en local)
+cypress/videos/
+cypress/screenshots/
+
+# Logs
+*.log
+
