@@ -7,7 +7,7 @@ const createEsbuildPlugin =
 
 module.exports = defineConfig({
   e2e: {
-    specPattern: "**/*.feature",
+    specPattern: ["**/*.feature", "cypress/e2e/**/*.cy.js"],
     experimentalRunAllSpecs: true,
 
     async setupNodeEvents(on, config) {
